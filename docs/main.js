@@ -47,7 +47,7 @@ function updateimg() {
     }
     document.getElementById("current").innerHTML = current;
     document.getElementById("total").innerHTML = total[img];
-    document.getElementById("img").src = "../" + path[img] + "/pic" + current + ".jpg";
+    document.getElementById("img").src = "img/" + path[img] + "/pic" + current + ".jpg";
 }
 
 function nextimg() {
