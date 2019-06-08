@@ -1,6 +1,6 @@
 # Games in C++ using Borland Graphics Interface
 
-We tried to built some interesting games using the TurboC++ graphics.h library. The games are fully functional and working well. Though the games are not platform independen. They work only with DOS emulator.
+We tried to built some interesting games using the TurboC++ graphics.h library. The games are fully functional and working well. Though the games are not platform independent. They work only with DOS emulator.
 
 # Developers: 
 - Ram Nad: [ram-nad](https://github.com/ram-nad)
