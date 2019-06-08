@@ -84,3 +84,81 @@ a{
     background: #feca57;
     color: #341f97;
 }
+#imgbox{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    background: rgba(20,20,20,1);
+}
+#imgbox h2{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+#imgbox div{
+    position: absolute;
+    box-sizing: border-box;
+    height: 14vh;
+    padding: 1em 0;
+    font-size: 22px;
+    width: 100%;
+    background: #0a0a0a;
+    color: #fff;
+}
+#header{
+    top: 0;
+}
+#footer{
+    bottom: 0;
+}
+#imgbox img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+#imgbox button{
+    position: absolute;
+    box-sizing: border-box;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+    margin: 0;
+    width: 8em;
+    height: 2em;
+    background: transparent;
+    font-weight: bolder;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+#imgbox button:disabled{
+    color: #909090;
+}
+#imgtag{
+    position: absolute;
+    font-size: 2.2em;
+    padding: 0.1em 0.8em;
+    left: 1em;
+    top: 0.3em;
+}
+#close{
+    top: 0.5em;
+    right: 0.5em;
+}
+#previous{
+    top: 0.8em;
+    left: 18em;
+}
+#next{
+    top: 0.8em;
+    right: 18em;
+}
+#count{
+    position: absolute;
+    top: 0.7em;
+    left: 34em;
+}
